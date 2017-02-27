@@ -1,0 +1,60 @@
+body{
+	background: black;
+}
+/*
+.text1 {
+	width: 60em;
+	color:white;
+	 white-space:nowrap;
+    overflow:hidden;
+    -webkit-animation: type 5s steps(50, end);
+    animation: type 5s steps(50, end);
+
+
+
+
+
+}
+
+
+@keyframes type{
+    from { width: 0; }
+}
+ 
+@-webkit-keyframes type{
+    from { width: 0; }
+}*/
+#text {
+	display: inline-block;
+	/*width: 900px;*/
+	color: white;
+	font-family: 'Droid Sans Mono', monospace;
+	white-space: pre;
+
+}
+
+/*.container {
+	max-height: 15px;
+}
+*/
+
+
+
+
+/*cursor*/
+
+
+.cursor{
+	color :white;
+    opacity: 1;
+    animation: blink 1s infinite;
+    z-index: 1;
+  
+
+}
+
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
